@@ -398,3 +398,6 @@ FodyWeavers.xsd
 
 Shadrec/
 Rasterizer/Assets/*
+Rasterizer/build
+vcpkg/
+.idea/

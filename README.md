@@ -46,6 +46,15 @@ All dependencies needed for the project can be downloaded using `windows_install
 
 `git-lfs` must be installed in order to fetch scenes repository.
 
+## Build
+
+```shell
+./prepare.sh
+cd Rasterizer
+mkdir build && cd build
+cmake .. -DCMAKE_TOOLCHAIN_FILE="../../vcpkg/scripts/buildsystems/vcpkg.cmake"
+```
+
 ### Assets
 
 The scene description and assets are adapted from [GLSL-PathTracer](https://github.com/knightcrawler25/GLSL-PathTracer) project [4]. The [scenes repository](https://github.com/Zielon/PBRScenes) will be automatically cloned during the installation process.
